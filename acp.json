@@ -1,0 +1,20 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "muckaway",
+    "description": "UK skip/grab-hire marketplace \u2014 'muck-away' is the UK term.",
+    "version": "0.1.0",
+    "provider": "CSOAI-ORG",
+    "interfaces": [
+      {
+        "type": "a2a",
+        "url": "https://muckaway.ai"
+      }
+    ],
+    "capabilities": [
+      "muckaway-ai-mcp",
+      "a2a-mesh",
+      "memoria-commit"
+    ]
+  }
+}
