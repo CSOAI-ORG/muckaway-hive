@@ -1,0 +1,14 @@
+{
+  "name": "muckaway.ai",
+  "title": "Muckaway AI — Earthworks & Spoil Management",
+  "description": "Automated muckaway scheduling, spoil tracking, and landfill diversion optimisation for construction sites.",
+  "cluster": "INDUSTRY",
+  "servers": [
+        { "id": "spoil-mcp.sov3.meok.ai", "url": "https://spoil-mcp.sov3.meok.ai/", "protocol": "mcp-1.0" },
+    { "id": "earthworks-mcp.sov3.meok.ai", "url": "https://earthworks-mcp.sov3.meok.ai/", "protocol": "mcp-1.0" },
+    { "id": "diversion-mcp.sov3.meok.ai", "url": "https://diversion-mcp.sov3.meok.ai/", "protocol": "mcp-1.0" }
+  ],
+  "registrar": "https://mcp-registry.sov3.meok.ai/register",
+  "protocol": "https://openMCP.ai/protocol",
+  "$schema": "https://openMCP.ai/schemas/mcp-server-list.json"
+}
